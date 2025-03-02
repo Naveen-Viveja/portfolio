@@ -1,0 +1,252 @@
+.nav{
+    display: flex;
+    background-color:rgba(253,253,86);
+    /* margin: 0px; */
+    height: 31px;
+    width: 100%;
+    border: 0px solid black;
+    padding: 0;
+    margin-right: none;
+    margin-left: none;
+    justify-content: space-evenly;
+}
+.page{
+    margin: 25px;
+    outline: 25px solid rgb(40, 33, 80);
+    padding-bottom: 400px;
+    border: 2px solid rgb(253, 253, 86);
+}
+mark{
+    background-color: rgb(154, 238, 128);
+}
+.nav a{
+    display: inline;
+    margin-right: 40px;
+    padding: 6px;
+}
+.nav button{
+    border: none;
+    background-color: #e6f3fa;
+    height: 28px;
+    width: auto;
+}
+.nav button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+    text-shadow: 2px 2px rgb(252, 232, 58);
+}
+footer{
+    text-align: center;
+    background-color: rgba(225, 105, 105, 0.087);
+    color: rgb(246, 236, 255);
+    height: 40px;
+    background: #747373;
+    display: flexbox;
+}
+button{
+    display: inline;
+    
+    margin-top: 1.5px;
+    cursor: pointer;
+}
+.img-profile{
+    padding-top: 50px;
+    margin-left: 460px;
+}
+
+
+
+
+
+
+
+.home-page{
+    margin: 30px;
+    border:0px solid black;
+    text-align: center;
+    width: 50%;
+    align-content: center;
+    padding-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.github{
+    height: 40x;
+    width: 50px;
+    cursor: progress;
+}
+.linkedin{
+    height: 40px;
+    width: 50px;
+    cursor: progress
+}
+.icon{
+    display: flex;
+    justify-content:space-around;
+    
+    align-items: center;
+    /* align-items: center; */
+}
+
+
+
+
+
+
+.cert-top,.cert-bottom{
+    display: flex;
+    /* padding: 30px; */
+    align-items: center;
+    /* justify-content:space-evenly; */
+}
+.cert-whole{
+    flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+.cert{
+    text-align:justify;
+    margin-top: auto;
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    margin: 20px;
+    background-color: rgb(255, 217, 245);
+    border-radius: 10px;
+}
+.cert:hover{
+    background-color: rgba(248, 235, 248, 0.811);
+    font-weight: bold;
+    padding:32px;
+    box-shadow:8px 3px 5px rgba(71, 221, 54, 0.327);
+}
+
+
+
+
+/* .about-top{
+    display: flex;
+    justify-content: space-evenly;
+} */
+/* .about {
+    
+    background-color: rgb(247, 251, 249);
+    padding: 15px;
+    width: 46%;
+    padding: auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+/* .profile{
+    
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    display:flexbox;
+} */
+.about-page{
+    margin: 50px;
+    padding-left: 30px;
+}
+.projects{
+    /* every single div including text and one image  */
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 30px;
+    justify-content: space-evenly;
+   
+}
+.class12{
+    /* every single div just only text */
+    background-color:    rgba(227, 226, 233, 0.852);;
+    padding: 10px;
+    padding-right: 30px;
+    margin: 10px;
+    text-align: justify;
+    /* text-align: center; */
+    width: 48%;
+    padding-left: 50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: flex; */
+}
+.class12:hover,.about:hover{
+    background-color:rgba(145, 152, 181, 0.367)  
+}
+.img12{
+    height: 150pxpx;
+    width: 190px;
+    display: flexbox;
+}
+.img-about{
+    height: 350px;
+    width: 350px;
+    justify-content: center;
+    padding-left: 350px;
+}
+/* .skills{
+    background-color:rgb(247, 251, 249);
+    padding: 15px;
+    margin: 20px;
+    width: 44%;
+    padding-left: auto;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+} */
+/* .c12{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+
+/* .c10{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img10{
+    height: 150pxpx;
+    width: 190px;
+    display: flexbox;
+    align-items: center;
+} */
+
+
+
+
+
+
+
+.internship{
+    background-color: rgb(233, 248, 243);
+    margin:40px;
+    padding: 10px;
+    width: 700PX;
+    text-align: center;
+    cursor:copy;
+    align-items: center;
+}
+.internship:hover{
+    background-color: rgba(172, 243, 219, 0.645);
+}
+
+.intern{
+    margin-left: 250px;
+}
+.experience{
+    width: 50%;
+    height: 90px;
+    margin: 30px;
+    margin-left: 130px;
+    padding: 10px;
+    align-items: center;
+    justify-content: centers;
+}
+
+
+
