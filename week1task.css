@@ -107,6 +107,7 @@ button{
     flex-wrap: wrap;
    align-items: center;
    justify-content: center;
+    margin-left: 330px;
 }
 .cert{
     text-align:justify;
