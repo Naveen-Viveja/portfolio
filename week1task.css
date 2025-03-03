@@ -12,7 +12,7 @@
 }
 .page{
     margin: 25px;
-    outline: 25px solid rgb(40, 33, 80);
+    outline: 25px solid rgb(0, 0, 0);
     padding-bottom: 400px;
     border: 2px solid rgb(253, 253, 86);
 }
@@ -23,10 +23,11 @@ mark{
     display: inline;
     margin-right: 40px;
     padding: 6px;
+    text-decoration:none;
 }
 .nav button{
     border: none;
-    background-color: #e6f3fa;
+    background-color: rgba(253,253,86);
     height: 28px;
     width: auto;
 }
@@ -43,7 +44,7 @@ footer{
     text-align: center;
     background-color: rgba(225, 105, 105, 0.087);
     color: rgb(246, 236, 255);
-    height: 40px;
+    height: 30px;
     background: #747373;
     display: flexbox;
 }
@@ -56,6 +57,9 @@ button{
 .img-profile{
     padding-top: 50px;
     margin-left: 460px;
+}
+body{
+    background-color: rgba(227, 227, 174, 0.646);
 }
 
 
@@ -107,7 +111,7 @@ button{
     flex-wrap: wrap;
    align-items: center;
    justify-content: center;
-    margin-left: 330px;
+   margin-left: 330px;
 }
 .cert{
     text-align:justify;
